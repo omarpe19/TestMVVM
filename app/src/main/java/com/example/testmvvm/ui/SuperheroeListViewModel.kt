@@ -1,11 +1,11 @@
-package com.example.testmvvm.models
+package com.example.testmvvm.ui
 
 import android.view.View
 import androidx.lifecycle.MutableLiveData
-import com.example.testmvvm.BaseViewModel
+import com.example.testmvvm.base.BaseViewModel
 import com.example.testmvvm.R
+import com.example.testmvvm.models.SuperheroesResponse
 import com.example.testmvvm.network.SuperheroesApi
-import com.example.testmvvm.ui.SuperheroListAdapter
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
@@ -51,7 +51,7 @@ class SuperheroeListViewModel : BaseViewModel(){
         loadingVisibility.value = View.GONE
     }
 
-    private fun onRetrieveSuperheroSuccess(superHeroList:SuperheroesResponse){
+    private fun onRetrieveSuperheroSuccess(superHeroList: SuperheroesResponse){
         superheroListAdapter.updateSuperHeroList(superHeroList)
     }
 

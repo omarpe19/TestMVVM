@@ -1,10 +1,10 @@
-package com.example.testmvvm
+package com.example.testmvvm.base
 
 import androidx.lifecycle.ViewModel
-import com.example.testmvvm.models.SuperheroeListViewModel
-import com.example.testmvvm.module.injection.DaggerViewModelInjector
-import com.example.testmvvm.module.injection.NetworkModule
-import com.example.testmvvm.module.injection.ViewModelInjector
+import com.example.testmvvm.ui.SuperheroeListViewModel
+import com.example.testmvvm.injection.component.DaggerViewModelInjector
+import com.example.testmvvm.injection.module.NetworkModule
+import com.example.testmvvm.injection.component.ViewModelInjector
 
 
 abstract class BaseViewModel: ViewModel() {

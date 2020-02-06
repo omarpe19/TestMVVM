@@ -1,6 +1,7 @@
-package com.example.testmvvm.module.injection
+package com.example.testmvvm.injection.component
 
-import com.example.testmvvm.models.SuperheroeListViewModel
+import com.example.testmvvm.injection.module.NetworkModule
+import com.example.testmvvm.ui.SuperheroeListViewModel
 import dagger.Component
 import javax.inject.Singleton
 

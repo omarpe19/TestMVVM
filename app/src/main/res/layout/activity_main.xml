@@ -4,7 +4,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.testmvvm.models.SuperheroeListViewModel" />
+            type="com.example.testmvvm.ui.SuperheroeListViewModel" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

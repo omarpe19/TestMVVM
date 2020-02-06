@@ -1,8 +1,7 @@
 package com.example.testmvvm.ui
 
 import androidx.lifecycle.MutableLiveData
-import com.bumptech.glide.Glide
-import com.example.testmvvm.BaseViewModel
+import com.example.testmvvm.base.BaseViewModel
 import com.example.testmvvm.models.Superheroe
 
 

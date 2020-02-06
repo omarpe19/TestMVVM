@@ -9,7 +9,6 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.testmvvm.R
 import com.example.testmvvm.databinding.ActivityMainBinding
-import com.example.testmvvm.models.SuperheroeListViewModel
 import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {

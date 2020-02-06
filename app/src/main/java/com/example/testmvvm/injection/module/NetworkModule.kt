@@ -1,4 +1,4 @@
-package com.example.testmvvm.module.injection
+package com.example.testmvvm.injection.module
 
 import com.example.testmvvm.network.SuperheroesApi
 import com.example.testmvvm.ultils.BASE_URL
